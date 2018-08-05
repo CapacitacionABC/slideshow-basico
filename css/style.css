@@ -1,0 +1,19 @@
+.slideShow{
+	background-color: red;
+	width: 600px;
+	height: 300px;
+	/*oculta los otros elementosd del slide*/
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.slideShow ul{
+	padding: 0px;
+	/*elimina el punto del <ul>*/
+	list-style-type: none;
+	/*permite que atraves del cambio d este valor se cambien los slide*/
+	margin-left: 0px;
+	/*ubica los slide horizontalmente*/
+	display: flex;
+
+}
