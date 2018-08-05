@@ -35,7 +35,8 @@
 		var tl = new TimelineMax();
 
 		tl.to( $slideshow, 1, {
-			marginLeft: margen
+			marginLeft: margen,
+			ease: Circ.easeOut
 		});
 
 		// Animacion con Animate
